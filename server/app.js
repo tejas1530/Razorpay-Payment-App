@@ -9,7 +9,7 @@ import cors  from "cors";
 
 config({ path: "./config/config.env" });
 
-export const app = express();
+export const app =  express();
 
 app.use(cors());
 
